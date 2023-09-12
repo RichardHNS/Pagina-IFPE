@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lista1</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="/Entregar aos Alunos/logo-reitoria.png" />
+        </div>
+
+        <div class="menu">
+            <a href="index.html"> Página Principal </a> &nbsp; | &nbsp;
+            <a href="/historia.html"> Historia do Campus </a> &nbsp; | &nbsp;
+            <a href="/imagens.html"> Imagens </a> &nbsp; | &nbsp;
+            <a href="/noticias.html"> Noticias </a> &nbsp; | &nbsp;
+            <a href="Matricula.Html"> Matricula </a>
+            <hr class="linhaGreen" />
+
+            <div class="imageMatricula">
+                <img src="Entregar aos Alunos/matricula.png" alt="">
+            </div>
+
+            <form action="" >
+                <fieldset class="fieldset1">
+                    <p class="paragrafo1">Informações Pessoais</p>
+                    <hr class="hrFieldset1">
+
+                    <label for="Nome" id="alinharEsquerda" >Nome: <br></label>
+                    <input type="text" name="Nome" id="inputLargura">
+                    <br>
+                    <label for="CPF" id="alinharEsquerda">CPF: <br></label>
+                    <input type="text" placeholder="000.000.000-00" name="CPF" class="inputLabel">
+                    <br>
+                    <label for="E-mail" id="alinharEsquerda" >E-mail: <br></label>
+                    <input type="text" name="E-mail" id="inputLargura">
+                    <br>
+                    <label for="DateNascimento" id="alinharEsquerda">DateNascimento: <br></label>
+                    <input type="date" name="DateNascimento" class="inputLabel">
+                    <br>
+                    <label for="Cidade" id="alinharEsquerda">Cidade: <br></label> 
+                    <select name="Cidade" class="inputLabel" id="largura" >
+                            <option value=""></option>
+                            <option value="Recife" >Recife</option>
+                            <option value="Jaboatão">Jaboatão</option>
+                            <option value="Olinda">Olinda</option>
+                        </select>
+                    <br>
+                    <label for="Escolaridade" id="alinhaScholl"> <strong>Escolaridade:</strong>  <br>
+                        <label for="fundamental"><input type="radio"class="espacamentoInput">Ensino fundamental</label> <br>
+                        <label for="Medio"><input type="radio" class="espacamentoInput">Ensino Medio</label> <br>
+                        <label for="Superior"> <input type="radio" class="espacamentoInput">Ensino Superior</label> <br>
+                    </label>
+                </fieldset>
+          
+                <fieldset class="fieldset2">
+                    <p class="paragrafo2">Informações para o Sistema Acadêmico</p>
+                    <hr class="hrFieldset2">
+                    <label for="Login" id="alinharEsquerda">Login (Para o sistema de matricula) <br></label> 
+                    <input type="text" id="alinharEsquerda">
+                    <br>
+                    <label for="Senha" id="alinharEsquerda">Senha (Para o sistema de Matricula)<br></label>
+                    <input type="password" id="alinharEsquerda" class="Largura" >
+                    <br>
+                    <label for="Imagem" id="alinharEsquerda">Adicione uma imagem para crachá <br><input type="file"></label> <br>
+                </fieldset>
+ 
+                <fieldset class="fieldset3">
+                    <p class="paragrafo3">Informações sobre o curso</p>
+                    <hr class="hrFieldset3">
+                    <label for="Curso" id="alinharEsquerda">
+                        Escolha o curso: <br>
+                        <select name="curso" id="alinharEsquerda" class="larguraCurso">
+                            <option value=""></option>
+                            <option value="">SST</option>
+                            <option value="">TI</option>
+                            <option value="">ODON</option>
+                        </select>
+                        <br>
+                    </label>
+                    <label for="porque" id="alinharEsquerda">
+                        Porque você escolheu esse curso: <br>
+                        <textarea name="porque" id="" cols="30" rows="10"></textarea>
+                    </label>
+                </fieldset>
+            </form>
+
+            <div class="containerButton">
+                <div>
+                    <button class="buttonLimpar">Limpar</button>
+                </div>
+                <div>
+                    <button class="buttonEnviar">Enviar</button>
+                </div>
+            </div>
+
+        </div>
+        <footer class="rodape">
+          <a href="https://www.facebook.com/IFPEoficial/?locale=pt_BR" target="_blank">
+              <img class="imagensSociaisRodape" src="/Entregar aos Alunos/iconFacebook.png" alt="">
+          </a>
+          <a href="https://www.instagram.com/ifpeoficial/" target="_blank">
+              <img class="imagensSociaisRodape" src="/Entregar aos Alunos/iconInstagram.png" alt="">
+          </a>
+          <a href="https://www.tiktok.com/tag/ifpe" target="_blank">
+              <img class="imagensSociaisRodape" src="/Entregar aos Alunos/iconTikTok.png" alt="">
+          </a>
+          <a href="https://twitter.com/IFPE_noticias" target="_blank">
+              <img class="imagensSociaisRodape" src="/Entregar aos Alunos/iconTwitter.png" alt="">
+          </a>
+          <a href="https://www.youtube.com/@CanalIFPE" target="_blank">
+              <img class="imagensSociaisRodape" src="/Entregar aos Alunos/iconYouTube.png" alt="">
+          </a> <a href="https://www.ifpe.edu.br/noticias/sai-terceira-retificacao-do-edital-de-matricula/contatos-dos-campi-para-matricula-ok-3.pdf" target="_blank">
+              <img class="imagensSociaisRodape" src="/Entregar aos Alunos/iconWhatsapp.png" alt="">
+          </a>
+          <a href="" target="_blank">
+              <img class="imagensSociaisRodape" src="/Entregar aos Alunos/iconTelegram.png" alt="">
+          </a>
+          <hr class="linhaRodape">
+          <p>© 2023 - Desenvolvido pelos alunos do Projeto Ninho</p>
+      </footer>
+
+    </header>
+</body>
+
+</html>

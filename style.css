@@ -1,0 +1,340 @@
+
+/*Pagina index*/
+body {
+  margin: 0;
+}
+
+.linhaGreen {
+  border: 6px solid #33A95B;
+
+}
+
+a {
+  font-size: medium;
+  text-decoration: none;
+  color: #33A95B;
+
+}
+
+.cabecalho {
+  background-color: #33A95B;
+  padding: 15px;
+
+}
+
+.menu {
+  text-align: center;
+  font-family: verdana;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
+div.bemVindoHome {
+  text-align: center;
+  margin-top: 60px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #747271;
+}
+
+.imagemHome {
+  width: 30%;
+}
+
+.rodape {
+  text-align: center;
+  font-family: verdana;
+  color: gray;
+  margin-top: 10%;
+}
+
+.imagensSociaisRodape {
+  width: 3%;
+  margin-right: 6px;
+}
+
+.linhaRodape {
+  border: 1px solid #33A95B;
+}
+
+/*Pagina de Historia*/
+
+div.externa {
+  padding: 10px;
+}
+
+h2 {
+  text-align: left;
+  padding-left: 18%;
+}
+
+
+div.interna {
+  padding: 20px;
+  width: 1024px;
+  text-align: justify;
+  font-family: arial;
+}
+
+
+.linhaRed {
+  border: 1px solid red
+}
+
+div.corpoPagina {
+  margin-top: 40px;
+}
+
+
+div.central {
+  width: 1024px;
+  font-family: 'SegoeUI-Light' !important;
+  text-align: center;
+}
+
+/*Pagina de Imagens*/
+
+.alinhamento {
+  display: flex;
+  margin-left: 12%;
+}
+
+table.imagens {
+  width: 100%;
+  text-align: center;
+  border-spacing: 20px;
+  color: #424242;
+  font-weight: bold;
+}
+
+
+.tamanhoFotosPaginaImagens {
+  width: 350px;
+  height: 300px;
+}
+
+
+/*Pagina de Noticias*/
+
+
+#divCorpoPagina {
+  margin-top: 40px;
+  padding: 10px;
+
+}
+
+
+#divCentral {
+  width: 1024px;
+  color: #333;
+  font-family: 'SegoeUI-Light' !important;
+  text-align: left;
+}
+
+.hrNoticia {
+
+  text-align: left;
+  border: 1px solid #33A95B;
+}
+
+.hrNoticia1 {
+  border: 1px solid #ae1010;
+
+}
+
+.pontos {
+  list-style-type: none;
+}
+
+#divCorpoPagina {
+  margin-top: 40px;
+  margin-left: 330px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#divCentral {
+
+  color: #333;
+  font-family: 'SegoeUI-Light' !important;
+  text-align: left;
+
+
+}
+
+#divCentralLeft {
+
+  color: #333;
+  font-family: 'SegoeUI-Light' !important;
+  text-align: left;
+
+}
+
+.tamanhoRight {
+  width: 500px;
+}
+
+.tamanhoLeft {
+  width: 200px;
+
+}
+
+.container {
+
+  margin: 0 auto;
+
+}
+
+
+/*Pagina de Matricula*/
+
+.imageMatricula {
+  display: flex;
+  margin-left: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.fieldset1 {
+  border: 2px solid rgb(189, 10, 10);
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.fieldset2 {
+  border: 2px solid rgb(33, 110, 173);
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.fieldset3 {
+  border: 2px solid rgb(5, 90, 5);
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.paragrafo1 {
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+}
+
+.paragrafo2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(49, 127, 190);
+}
+
+.paragrafo3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: green;
+
+}
+
+
+#alinharEsquerda {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#alinhaScholl {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+#inputLargura {
+  width: 400px;
+  display: block;
+  text-align: left;
+}
+
+.inputLabel {
+  display: block;
+  text-align: left;
+}
+
+.espacamentoInput {
+  margin-bottom: 7px;
+}
+
+.labelName {
+  font-weight: bold;
+}
+
+#largura {
+  width: 150px;
+}
+
+.Largura {
+  width: 100px;
+}
+
+.larguraCurso {
+  width: 200px;
+}
+
+textarea {
+  width: 400px;
+}
+
+.containerButton {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.buttonLimpar {
+  background-color: rgb(233, 100, 100);
+  padding: 5px 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttonEnviar {
+  background-color: rgb(100, 191, 233);
+  padding: 5px 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hrFieldset1 {
+  border: 1px solid rgb(189, 10, 10);
+  ;
+  margin-bottom: 20px;
+}
+
+.hrFieldset2 {
+  border: 1px solid rgb(33, 110, 173);
+  margin-bottom: 20px;
+}
+
+.hrFieldset3 {
+  border: 1px solid rgb(5, 90, 5);
+  margin-bottom: 20px;
+}
